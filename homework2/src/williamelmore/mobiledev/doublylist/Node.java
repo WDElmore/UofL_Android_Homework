@@ -34,4 +34,8 @@ public class Node {
 		this.previousNode = previousNode;
 	}
 
+	@Override
+	public String toString() {
+		return "Node [value=;" + value + ",pointerNode=" +pointerNode + ", previousNode=" + previousNode + "]";
+	}
 }
