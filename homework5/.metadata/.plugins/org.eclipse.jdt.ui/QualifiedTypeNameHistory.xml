@@ -10,4 +10,9 @@
 <fullyQualifiedTypeName name="android.os.Build"/>
 <fullyQualifiedTypeName name="android.os.Build.VERSION_CODES"/>
 <fullyQualifiedTypeName name="android.annotation.TargetApi"/>
+<fullyQualifiedTypeName name="java.util.UUID"/>
+<fullyQualifiedTypeName name="android.view.LayoutInflater"/>
+<fullyQualifiedTypeName name="android.support.v4.app.FragmentManager"/>
+<fullyQualifiedTypeName name="com.bignerdranch.android.criminalintent.R.id"/>
+<fullyQualifiedTypeName name="android.support.v4.app.Fragment"/>
 </qualifiedTypeNameHistroy>
