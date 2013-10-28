@@ -35,14 +35,15 @@ public class CrimeListFragment extends ListFragment {
 
 	private class CrimeAdapter extends ArrayAdapter<Crime> {
 		public CrimeAdapter(ArrayList<Crime> crimes) {
-			super(getActivity(), 0, crimes);
+			super(getActivity(), android.R.layout.simple_list_item_1, crimes);
 		}
 		
 		@Override
 		public View getView(int position, View convertView, ViewGroup parent) {
 			//If we weren't given a view, inflate one
 			if (convertView == null) {
-				convertView = getActivity().getLayoutInflater().inflate(R.layout.list_item_crime,  null);
+				convertView = getActivity().getLayoutInflater()
+						.inflate(R.layout.list_item_crime,  null);
 			}
 			
 			//Configure the view  for this Crime

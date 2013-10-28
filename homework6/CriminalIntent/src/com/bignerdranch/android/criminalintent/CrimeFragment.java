@@ -52,7 +52,7 @@ public class CrimeFragment extends Fragment {
 		mSolvedCheckBox = (CheckBox)v.findViewById(R.id.crime_solved);
 		mSolvedCheckBox.setOnCheckedChangeListener(new OnCheckedChangeListener() {
 			public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-				// Set the crim'es solved property
+				// Set the crime's solved property
 				mCrime.setSolved(isChecked);
 			}
 		});
