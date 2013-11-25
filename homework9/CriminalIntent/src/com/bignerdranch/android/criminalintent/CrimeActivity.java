@@ -4,7 +4,7 @@ import java.util.UUID;
 
 import android.support.v4.app.Fragment;
 
-public class CrimeActivity extends SimpleFragmentActivity {
+public class CrimeActivity extends SingleFragmentActivity {
 
 	@Override
 	protected Fragment createFragment() {
